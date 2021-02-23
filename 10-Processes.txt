@@ -1,1 +1,117 @@
+Concepts: Prompt, Shell, Text Editor, Script
+top - 20:47:22 up 38 min,  0 users,  load average: 3.00, 2.78, 2.15
+Tasks:   7 total,   1 running,   6 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.8 us,  9.7 sy,  0.0 ni, 56.1 id,  0.2 wa,  0.0 hi,  3.2 si,  0.0 st
+KiB Mem : 26694668 total, 19605692 free,  3170888 used,  3918088 buff/cache
+KiB Swap:        0 total,        0 free,        0 used. 23369096 avail Mem 
 
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND               
+      1 runner    20   0 1608668  15668  11280 S   1.0  0.1   0:01.34 init                  
+     13 runner    20   0  412196  12152   8144 S   0.0  0.0   0:00.05 prybar-python3        
+     26 runner    20   0   20184   3424   3196 S   0.0  0.0   0:00.00 bash                  
+     27 runner    20   0   20052   3712   3364 S   0.0  0.0   0:00.00 run-language-se       
+     29 runner    20   0  327680  56292  17752 S   0.0  0.2   0:01.34 pyls                  
+     37 runner    20   0   20184   3944   3500 S   0.0  0.0   0:00.01 bash                  
+     42 runner    20   0   40380   3488   2992 R   0.0  0.0   0:00.01 top                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~/command-line-9-12-PeterK-UWP$ xlogo
+~/command-line-9-12-PeterK-UWP$ xlogo &
+[1] 118
+~/command-line-9-12-PeterK-UWP$ Warning: Cannot convert string "xlogo32" to type Pixmap
+ps
+    PID TTY          TIME CMD
+     93 pts/4    00:00:00 bash
+    118 pts/4    00:00:00 xlogo
+    119 pts/4    00:00:00 ps
+~/command-line-9-12-PeterK-UWP$ jobs
+[1]+  Running                 xlogo &
+~/command-line-9-12-PeterK-UWP$ jobs
+[1]+  Running                 xlogo &
+~/command-line-9-12-PeterK-UWP$ fg %1
+xlogo
+^C   
+~/command-line-9-12-PeterK-UWP$ xlogo
+Warning: Cannot convert string "xlogo32" to type Pixmap
+bg %1
+^C
+~/command-line-9-12-PeterK-UWP$ xlogo &
+[1] 121
+~/command-line-9-12-PeterK-UWP$ Warning: Cannot convert string "xlogo32" to type Pixmap
+^C
+~/command-line-9-12-PeterK-UWP$ kill -1 121
+~/command-line-9-12-PeterK-UWP$ xlogo &
+[2] 130
+[1]   Hangup                  xlogo
+~/command-line-9-12-PeterK-UWP$ Warning: Cannot convert string "xlogo32" to type Pixmap
+^C
+~/command-line-9-12-PeterK-UWP$ kill -INT 130
+~/command-line-9-12-PeterK-UWP$ xlogo &
+[3] 131
+[2]   Interrupt               xlogo
+~/command-line-9-12-PeterK-UWP$ Warning: Cannot convert string "xlogo32" to type Pixmap
+^C
+~/command-line-9-12-PeterK-UWP$ kill -SIGINT 131
+~/command-line-9-12-PeterK-UWP$ kill -l
+ 1) SIGHUP   2) SIGINT   3) SIGQUIT  4) SIGILL   5) SIGTRAP
+ 6) SIGABRT  7) SIGBUS   8) SIGFPE   9) SIGKILL 10) SIGUSR1
+11) SIGSEGV 12) SIGUSR2 13) SIGPIPE 14) SIGALRM 15) SIGTERM
+16) SIGSTKFLT   17) SIGCHLD 18) SIGCONT 19) SIGSTOP 20) SIGTSTP
+21) SIGTTIN 22) SIGTTOU 23) SIGURG  24) SIGXCPU 25) SIGXFSZ
+26) SIGVTALRM   27) SIGPROF 28) SIGWINCH    29) SIGIO   30) SIGPWR
+31) SIGSYS  34) SIGRTMIN    35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
+38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
+43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
+58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
+63) SIGRTMAX-1  64) SIGRTMAX
+[3]+  Interrupt               xlogo
+~/command-line-9-12-PeterK-UWP$ xlogo &
+[1] 132
+~/command-line-9-12-PeterK-UWP$ Warning: Cannot convert string "xlogo32" to type Pixmap
+^C
+~/command-line-9-12-PeterK-UWP$ xlogo &
+[2] 133
+~/command-line-9-12-PeterK-UWP$ Warning: Cannot convert string "xlogo32" to type Pixmap
+^C
+~/command-line-9-12-PeterK-UWP$ killall xlogo
+~/command-line-9-12-PeterK-UWP$ 
+© 
