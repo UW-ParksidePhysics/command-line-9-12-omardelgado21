@@ -1,1 +1,11 @@
-
+Concepts: Redirection, text editor, directory
+~/command-line-9-12-omardelgado21$ vi
+~/command-line-9-12-omardelgado21$ rm -f foo.txt
+~/command-line-9-12-omardelgado21$ vi foo.txt
+~/command-line-9-12-omardelgado21$ vi foo.txt
+~/command-line-9-12-omardelgado21$ ls -l /usr/bin > ls.output.txt
+~/command-line-9-12-omardelgado21$ vi foo.txt ls.output.txt
+2 files to edit
+~/command-line-9-12-omardelgado21$ vi foo.txt
+~/command-line-9-12-omardelgado21$ vi ls-output.txt
+~/command-line-9-12-omardelgado21$ 
